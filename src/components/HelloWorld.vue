@@ -1,32 +1,12 @@
 <template>
-  <div class="hello">
-    <h1>{{ msg }}</h1>
-    <p>
-      For a guide and recipes on how to configure / customize this project,<br>
-      check out the
-      <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
-    </p>
-    <h3>Installed CLI Plugins</h3>
-    <ul>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel" target="_blank" rel="noopener">babel</a></li>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint" target="_blank" rel="noopener">eslint</a></li>
-    </ul>
-    <h3>Essential Links</h3>
-    <ul>
-      <li><a href="https://vuejs.org" target="_blank" rel="noopener">Core Docs</a></li>
-      <li><a href="https://forum.vuejs.org" target="_blank" rel="noopener">Forum</a></li>
-      <li><a href="https://chat.vuejs.org" target="_blank" rel="noopener">Community Chat</a></li>
-      <li><a href="https://twitter.com/vuejs" target="_blank" rel="noopener">Twitter</a></li>
-      <li><a href="https://news.vuejs.org" target="_blank" rel="noopener">News</a></li>
-    </ul>
-    <h3>Ecosystem</h3>
-    <ul>
-      <li><a href="https://router.vuejs.org" target="_blank" rel="noopener">vue-router</a></li>
-      <li><a href="https://vuex.vuejs.org" target="_blank" rel="noopener">vuex</a></li>
-      <li><a href="https://github.com/vuejs/vue-devtools#vue-devtools" target="_blank" rel="noopener">vue-devtools</a></li>
-      <li><a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a></li>
-      <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
-    </ul>
+  <div class="columns is-centered is-vcentered" id="element">
+    <div class="column is-5">
+      <p class="is-size-1 is-uppercase has-text-weight-bold mb-5">Les meilleurs près de chez vous !</p>
+      <p class="is-size-4">Une envie de consommer des produits locaux ? La halte mitoyenne fait le lien entre les champs d’à coté et votre assiette.</p>
+      <p class="is-size-4 mt-5">Mangez français, mangez mieux !</p>
+      <a class="button my-6 Neumorphism is-size-5" href="https://www.instagram.com/la_halte_mitoyenne/" target="_blank"><b>Nous suivre sur les réseaux</b></a>
+    </div>
+    <div class="column is-5"><img id="roundedimg" src="../assets/img1.jpg" alt=""></div>
   </div>
 </template>
 
@@ -41,18 +21,25 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h3 {
-  margin: 40px 0 0;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
 a {
   color: #42b983;
+}
+
+#roundedimg{
+  border-radius: 25px;
+}
+
+.Neumorphism{
+  Width: 385px;
+  Height:  90px;
+  background: #F0F0F3;
+  border: 5px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  box-shadow: -10px -10px 30px #FFFFFF, 10px 10px 20px #AEAEC0;
+  border-radius: 98px;
+}
+
+#element{
+  margin: 40px 0px 40px 0px;
 }
 </style>
