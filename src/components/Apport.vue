@@ -4,7 +4,7 @@
       <p class="is-size-2 has-text-weight-bold my-5 has-text-centered">Qu'est ce que ça apporte ?</p>
         <div class="columns is-centered my-5">
             <div class="column">
-                <div class="column image">
+                <div class="column image bigrounded">
                     <img class="rounded" src="../assets/imgrounded1.jpg">
                 </div>
                 <p class="is-size-3 has-text-weight-bold mb-5 has-text-centered">Pour les producteurs :</p>
@@ -66,5 +66,14 @@ border-radius: 16px;
 
 .rounded{
     border-radius: 50%;
+    height: 14em;
+    width: 14em;
+    object-fit: cover;
+}
+
+.bigrounded{
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
 }
 </style>
