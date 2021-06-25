@@ -11,7 +11,7 @@
                 <p class="is-size-5 has-text-centered">Besoin de trouver de nouvelles opportunitées pour vendre vos produits ? Nous sommes là pour vous aider à vendre vos productions au plus près de chez vous. Un accès direct aux étals de marché de votre région.</p>
             </div>
             <div class="column">
-              <div class="column image">
+              <div class="column image bigrounded">
                     <img class="rounded" src="../assets/imgrounded2.jpg">
                 </div>
                 <p class="is-size-3 has-text-weight-bold mb-5 has-text-centered">Pour les mairies :</p>
@@ -19,7 +19,7 @@
                 Proposez les produits locaux à vos concitoyens et remplissez les étals de vos marchés des délices de nos régions.</p>
             </div>
             <div class="column">
-                <div class="column image">
+                <div class="column image bigrounded">
                     <img class="rounded" src="../assets/imgrounded3.jpg">
                 </div>
                 <p class="is-size-3 has-text-weight-bold mb-5 has-text-centered">Pour le consommateur :</p>
