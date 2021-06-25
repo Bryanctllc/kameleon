@@ -12,7 +12,7 @@
             </div>
             <div class="column">
               <div class="column image">
-                    <img class="rounded" src="../assets/imgrounded1.jpg">
+                    <img class="rounded" src="../assets/imgrounded2.jpg">
                 </div>
                 <p class="is-size-3 has-text-weight-bold mb-5 has-text-centered">Pour les mairies :</p>
                 <p class="is-size-5 has-text-centered">Marre de ne trouver que des tomates d’espagne sur vos marchés ?
@@ -20,7 +20,7 @@
             </div>
             <div class="column">
                 <div class="column image">
-                    <img class="rounded" src="../assets/imgrounded1.jpg">
+                    <img class="rounded" src="../assets/imgrounded3.jpg">
                 </div>
                 <p class="is-size-3 has-text-weight-bold mb-5 has-text-centered">Pour le consommateur :</p>
                 <p class="is-size-5 has-text-centered">Une envie de découvrir les ressources locales des agriculteurs environnant ? 

@@ -3,7 +3,7 @@
     <div class="column is-5">
       <p class="is-size-2 has-text-weight-bold">Passez à l'action !</p>
       <p class="is-size-2 has-text-weight-bold mb-6">On a besoin de vous !</p>
-      <p class="is-size-4 mb-6">Participez vous aussi à la création de notre projet, pour que nous puissons tous profiter de la richesse de notre terroire. Répondez anonyment à notre questionnaire pour nous aidez dans notre voyage !</p>
+      <p class="is-size-4 mb-6">Participez vous aussi à la création de notre projet, pour que nous puissions tous profiter de la richesse de notre terroir. Répondez anonymement à notre questionnaire pour nous aider dans notre voyage !</p>
       <a class="button my-6 Neumorphism is-size-5" href="https://docs.google.com/forms/d/e/1FAIpQLSflqDOydqhNRAJSJlebqkUk_0t0v88H1DeqIjylmN9uwcqe-w/viewform?usp=sf_link" target="_blank"><b>Répondre au questionnaire</b></a>
     </div>
     <div class="column is-5">
