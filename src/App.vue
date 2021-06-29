@@ -1,10 +1,11 @@
 <template>
-  <Header class="my-4"></Header>
-  <HelloWorld class="my-6"></HelloWorld>
-  <Apport class="my-6"></Apport>
-  <Trust class="my-6"></Trust>
-  <Action class="my-6"></Action>
-  <Form class="my-6"></Form>
+  <Header></Header>
+  <HelloWorld class="section"></HelloWorld>
+  <Chiffres class="section"></Chiffres>
+  <Apport class="section"></Apport>
+  <Trust class="section"></Trust>
+  <Action class="section"></Action>
+  <Form class="section"></Form>
   <Footer class="mt-6"></Footer>
 </template>
 
@@ -16,15 +17,19 @@ import Apport from './components/Apport.vue'
 import Action from './components/Action.vue'
 import Form from './components/Form.vue'
 import Trust from './components/Trust.vue'
+import Chiffres from './components/Chiffres.vue'
 
 export default {
   name: 'App',
   components: {
-    Header, Footer, HelloWorld, Apport, Action, Form, Trust
+    Header, Footer, HelloWorld, Apport, Action, Form, Trust, Chiffres
   }
 }
 </script>
 
 <style>
+body{
+  color: black;
+}
 
 </style>

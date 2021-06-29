@@ -49,7 +49,7 @@ export default {
 }
 
 footer{
-  background-color: #331800 !important;
+  background-color: #2D6B75 !important;
   color: white;
 }
 

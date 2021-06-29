@@ -1,7 +1,7 @@
 <template>
     <div class="columns is-centered">
         <div class="column is-10">
-        <p class="is-size-2 has-text-weight-bold my-5 has-text-centered">Ils nous font confiance :</p>
+        <p class="is-size-2 has-text-weight-bold mb-5 has-text-centered">Ils nous font confiance :</p>
         <div class="columns is-centered mt-6 is-justify-content-space-evenly">
             <div class="column is-2">
                 <div class="button Neumorphism is-size-4">Partenaire</div>

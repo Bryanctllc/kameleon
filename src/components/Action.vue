@@ -1,5 +1,7 @@
 <template>
-  <div class="columns is-centered is-vcentered" id="element">
+<div class="columns is-centered">
+    <div class="column is-10 py-6" id="container">
+  <div class="columns is-centered is-vcentered">
     <div class="column is-5">
       <p class="is-size-2 has-text-weight-bold">Passez à l'action !</p>
       <p class="is-size-2 has-text-weight-bold mb-6">On a besoin de vous !</p>
@@ -10,6 +12,8 @@
         <img id="roundedimg" src="../assets/img2-2.jpg" alt="">
         </div>
   </div>
+    </div>
+</div>
 </template>
 
 <script>
@@ -23,7 +27,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-a {
+a,p {
   color: #ffffff;
 }
 
@@ -34,15 +38,17 @@ a {
 .Neumorphism{
   Width: 385px;
   Height:  90px;
-  background: rgba(239, 96, 70, 0.72);
+  background: #92C3BE;
 border: 3px solid rgba(255, 255, 255, 0.1);
 box-sizing: border-box;
-box-shadow: -5px -5px 20px #FF6D62, 4px 7px 9px #B03018;
+box-shadow: -5px -5px 20px #51929C, 4px 7px 9px #12444D;
 border-radius: 98px;
 }
 
-#element{
-  padding: 40px 0px 40px 0px;
-  background: #EF6046;
+
+#container{
+  background: #2D6B75;
+box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25);
+border-radius: 41px;
 }
 </style>
