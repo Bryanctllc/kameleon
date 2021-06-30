@@ -144,17 +144,19 @@
 
 <style scoped>
 #container {
-  background: #f0f0f3;
-  box-shadow: -10px -10px 30px #ffffff, 10px 10px 30px rgba(174, 174, 192, 0.4);
-  border-radius: 41px;
+  background: #F0F0F3;
+border: 4px solid rgba(255, 255, 255, 0.3);
+box-sizing: border-box;
+box-shadow: -10px -10px 50px #FFFFFF, 10px 10px 30px #AEAEC0;
+border-radius: 16px;
 }
 
 .Neumorphism {
-  background: #f0f0f3;
-  border: 3px solid rgba(255, 255, 255, 0.3);
-  box-sizing: border-box;
-  box-shadow: -10px -10px 30px #ffffff, 4px 7px 9px #aeaec0;
-  border-radius: 40px;
+  background: #F0F0F3;
+border: 3px solid rgba(255, 255, 255, 0.3);
+box-sizing: border-box;
+box-shadow: -10px -10px 30px #FFFFFF, 4px 7px 9px #AEAEC0;
+border-radius: 40px;
 }
 
 @font-face {

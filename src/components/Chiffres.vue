@@ -3,7 +3,9 @@
     <div class="column is-10 py-6" id="container">
       <div class="columns is-justify-content-space-evenly mb-6">
           <div class="column is-5">
-              <img id="roundedimg" src="../assets/img1.jpg" alt="">
+            <figure class="image is-5by4">
+              <img id="roundedimg" class="is-fullwidth" src="../assets/Marche.jpeg" alt="">
+              </figure>
           </div>
           <div class="column is-5">
               <h2 class="is-size-2 has-text-weight-bold mb-5">89 % !</h2>
@@ -16,7 +18,9 @@
               <p class="is-size-4">Plus de 94% des gens interrogés sont intéressé par une plateforme  permettant d’obtenir des réductions,ainsi qu’une fidélisation parmi les producteurs locaux de leur marchés.</p>
           </div>
           <div class="column is-5">
-              <img id="roundedimg" src="../assets/img1.jpg" alt="">
+            <figure class="image is-5by4">
+              <img id="roundedimg" src="../assets/Marche.jpeg" alt="">
+              </figure>
           </div>
       </div>
     </div>
@@ -40,6 +44,7 @@ border-radius: 16px;
 
 #roundedimg{
   border-radius: 25px;
+  object-fit: cover;
 }
 
 </style>

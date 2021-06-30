@@ -4,7 +4,7 @@
 <nav class="navbar is-10" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
     <a class="navbar-item" href="https://lahaltemitoyenne.fr">
-      <img src="../../assets/logo-lhm.png">
+      <img src="../../assets/logo-lhm-bleu.png">
     </a>
 
     <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarHome">
@@ -18,13 +18,13 @@
     <div class="navbar-end">
       <div class="navbar-item">
         <div class="buttons">
-          <a class="special button is-size-5">
+          <a class="button is-size-5">
             A propos
           </a>
-          <a class="special button is-size-5" href="https://kameleon-equipe.systeme.io/blog-lahaltemitoyenne" target="_blank">
+          <a class="button is-size-5" href="https://kameleon-equipe.systeme.io/blog-lahaltemitoyenne" target="_blank">
             Blog
           </a>
-          <a class="special button stylebtn is-size-5">
+          <a class="button stylebtn is-size-5">
             Se connecter
           </a>
         </div>
@@ -69,37 +69,53 @@ export default {
 </script>
 
 <style>
-.special{
+.navbar {
+  background-color: inherit;
+}
+.button{
   align-items: center;
   font-weight: bold;
     color: black;
-    transition-duration: 0.5s;
     border-color: transparent;
-    
+    background-color: inherit;
 }
 
-.special:hover{
-  transform: translateY(-4px);
+.button:hover{
   border-color: transparent;
   color: black;
 }
 
 .navbar-item img {
-    max-height: 3.5rem;
+    max-height: 4rem;
 }
 
 .stylebtn{
-  background: #92C3BE;
+  background: #F0F0F3;
 border: 3px solid rgba(255, 255, 255, 0.3);
 box-sizing: border-box;
-box-shadow: -10px -10px 30px #FFFFFF, 10px 10px 20px #AEAEC0;
-border-radius: 34px;
+box-shadow: -10px -10px 30px #FFFFFF, 10px 10px 20px #DFDFDF;
+border-radius: 35px;
 }
 
 .stylebtn:hover{
-  transform: translateY(-4px);
   border: 3px solid rgba(255, 255, 255, 0.3);
   color: black;
 }
 
+
+@media (max-width: 1023px) {
+  .button{
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .stylebtn {
+    background: none;
+border: none;
+box-shadow: none;
+  }
+  .stylebtn:hover{
+  border: none;
+  color: black;
+}
+}
 </style>

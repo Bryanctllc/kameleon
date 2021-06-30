@@ -79,11 +79,11 @@ export default {
 <style scoped>
 
 .Neumorphism {
-  background: #f0f0f3;
-  border: 5px solid rgba(255, 255, 255, 0.3);
-  box-sizing: border-box;
-  box-shadow: -10px -10px 30px #ffffff, 10px 10px 20px #aeaec0;
-  border-radius: 98px;
+  background: #F0F0F3;
+border: 1px solid rgba(255, 255, 255, 0.3);
+box-sizing: border-box;
+box-shadow: -10px -10px 30px #FFFFFF, 10px 10px 20px #DFDFDF;
+border-radius: 35px;
 }
 
 #container {

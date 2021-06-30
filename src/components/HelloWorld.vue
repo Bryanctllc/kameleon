@@ -1,7 +1,7 @@
 <template>
   <div class="columns is-centered is-vcentered">
     <div class="column is-5">
-      <p class="is-size-1 is-uppercase has-text-weight-bold mb-5">
+      <p class="is-size-1 is-uppercase has-text-weight-bold mb-5" id="yaya">
         Les meilleurs près de chez vous !
       </p>
       <p class="is-size-4">
@@ -16,7 +16,7 @@
         ><b>Nous suivre sur les réseaux</b></a
       >
     </div>
-    <div class="column is-5">
+    <div class="column is-5" id="display">
       <figure class="image is-square">
         <img id="roundedimg" src="../assets/Marche.jpeg" alt="" />
       </figure>
@@ -45,10 +45,19 @@ a {
 }
 
 .Neumorphism {
-  background: #f0f0f3;
-  border: 5px solid rgba(255, 255, 255, 0.3);
-  box-sizing: border-box;
-  box-shadow: -10px -10px 30px #ffffff, 10px 10px 20px #aeaec0;
-  border-radius: 98px;
+  background: #F0F0F3;
+border: 3px solid rgba(255, 255, 255, 0.3);
+box-sizing: border-box;
+box-shadow: -5px -5px 20px #F0F0F3, 4px 7px 9px #DEDEDE;
+border-radius: 98px;
+}
+
+@media (max-width: 769px) {
+  #display{
+    display: none;
+  }
+  #yaya{
+    text-transform: none !important;
+  }
 }
 </style>

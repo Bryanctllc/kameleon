@@ -4,18 +4,18 @@
         <div class="column is-10 is-vcentered">
           <div class="columns is-centered is-justify-content-space-between is-vcentered">
             <div class="column is-3">
-                <p class="is-uppercase has-text-centered" id="underlin">Lahalte.mitoyenne@gmail.com</p>
+                <a href="mailto:Lahalte.mitoyenne@gmail.com" class="maillink"><p class="has-text-centered is-size-5" id="underlin">Lahalte.mitoyenne@gmail.com</p></a>
             </div>
             <div class="column is-3">
                 <div>
-                  <img src="../../assets/logo-lhm2.png" alt="Logo La Halte Mitoyenne">
+                  <img src="../../assets/logo-lhm-bleu.png" alt="Logo La Halte Mitoyenne">
                 </div>
             </div>
             <div class="column is-3">
               <div class="columns is-justify-content-space-between is-vcentered">
                 <div class="column">
                     <span class="icon">
-                      <a href="https://www.facebook.com/Le-march%C3%A9-fran%C3%A7ais-103706585283355" target="_blank"><i class="fab fa-facebook carotte"></i></a>
+                      <a href="https://www.facebook.com/Lahaltemitoyenne" target="_blank"><i class="fab fa-facebook carotte"></i></a>
                     </span>
                 </div>
                 <div class="column">
@@ -31,7 +31,9 @@
               </div>
             </div>
           </div>
-          <p class="is-size-6 has-text-weight-bold has-text-centered">@Kameleon2021</p>
+          <p class="has-text-centered">Politique de confidentialité</p>
+          <p class="has-text-centered">Politique de gestion des cookies</p>
+          <p class="has-text-centered">©La Halte Mitoyenne 2021. Tous droits réservés</p>
         </div>
       </div>
     </footer>
@@ -43,7 +45,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 #underlin{
   text-decoration: underline;
 }
@@ -59,4 +61,7 @@ footer{
   color: white;
 }
 
+.maillink{
+  color: white;
+}
 </style>
