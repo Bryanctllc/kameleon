@@ -1,5 +1,5 @@
 <template>
-  <div class="columns is-centered is-vcentered">
+    <div class="columns is-centered is-vcentered">
     <div class="column is-5">
       <p class="is-size-1 is-uppercase has-text-weight-bold mb-5" id="yaya">
         Les meilleurs près de chez vous !
@@ -18,23 +18,14 @@
     </div>
     <div class="column is-5" id="display">
       <figure class="image is-square">
-        <img id="roundedimg" src="../assets/Marche.jpeg" alt="" />
+        <img id="roundedimg" src="@/assets/Marche.jpeg" alt="" />
       </figure>
 
     </div>
   </div>
 </template>
 
-<script>
-export default {
-  name: "HelloWorld",
-  props: {
-    msg: String,
-  },
-};
-</script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 a {
   color: black;
@@ -46,7 +37,7 @@ a {
 
 .Neumorphism {
   background: #F0F0F3;
-border: 3px solid rgba(255, 255, 255, 0.3);
+border: 2px solid rgba(255, 255, 255, 0.3);
 box-sizing: border-box;
 box-shadow: -5px -5px 20px #F0F0F3, 4px 7px 9px #DEDEDE;
 border-radius: 98px;

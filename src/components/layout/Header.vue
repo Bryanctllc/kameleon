@@ -3,9 +3,9 @@
   <div class="column is-10">
 <nav class="navbar is-10" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
-    <a class="navbar-item" href="https://lahaltemitoyenne.fr">
+    <router-link class="navbar-item" to="/#news">
       <img src="../../assets/logo-lhm-bleu.png">
-    </a>
+    </router-link>
 
     <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarHome">
       <span aria-hidden="true"></span>
@@ -91,14 +91,14 @@ export default {
 
 .stylebtn{
   background: #F0F0F3;
-border: 3px solid rgba(255, 255, 255, 0.3);
+border: 1px solid rgba(255, 255, 255, 0.3);
 box-sizing: border-box;
 box-shadow: -10px -10px 30px #FFFFFF, 10px 10px 20px #DFDFDF;
 border-radius: 35px;
 }
 
 .stylebtn:hover{
-  border: 3px solid rgba(255, 255, 255, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.3);
   color: black;
 }
 

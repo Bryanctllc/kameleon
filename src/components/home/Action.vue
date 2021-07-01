@@ -9,7 +9,7 @@
       <a class="button my-6 Neumorphism is-size-5" href="https://docs.google.com/forms/d/e/1FAIpQLSflqDOydqhNRAJSJlebqkUk_0t0v88H1DeqIjylmN9uwcqe-w/viewform?usp=sf_link" target="_blank"><b>Répondre au questionnaire</b></a>
     </div>
     <div class="column is-5">
-        <img id="roundedimg" src="../assets/img2-2.jpg" alt="">
+        <img id="roundedimg" src="@/assets/img2-2.jpg" alt="">
         </div>
   </div>
     </div>

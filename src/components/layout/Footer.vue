@@ -31,8 +31,9 @@
               </div>
             </div>
           </div>
+          <router-link to="/confidentialite" class="has-text-centered">Politique de confidentialité</router-link>
           <p class="has-text-centered">Politique de confidentialité</p>
-          <p class="has-text-centered">Politique de gestion des cookies</p>
+          <p class="has-text-centered">Mentions Légales</p>
           <p class="has-text-centered">©La Halte Mitoyenne 2021. Tous droits réservés</p>
         </div>
       </div>

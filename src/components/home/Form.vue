@@ -1,8 +1,8 @@
 <template>
-  <div class="columns is-centered my-4">
+  <div class="columns is-centered my-4" id="news">
     <div class="column is-10 py-6" id="container">
       <p class="is-size-2 has-text-weight-bold mt-4 has-text-centered">
-        Faites ce voyage avec nous !
+        Faites ce voyage avec nous,
       </p>
       <p class="is-size-2 has-text-weight-bold mb-5 has-text-centered">
         Vous ne le regretterez pas !
@@ -10,17 +10,17 @@
       <div class="columns is-centered">
         <div class="column is-6">
           <p class="is-size-4 has-text-weight-normal has-text-centered">
-            Recevez notre newsletter chaque semaine pour suivre l’avancée du
-            projet et restez informés !
+            Recevez notre newsletter chaque semaine pour rester informé de
+            l’avancée du projet !
           </p>
         </div>
       </div>
       <div class="columns is-centered">
         <div class="column is-5">
           <link
-    rel="stylesheet"
-    href="https://sibforms.com/forms/end-form/build/sib-styles.css"
-  />
+            rel="stylesheet"
+            href="https://sibforms.com/forms/end-form/build/sib-styles.css"
+          />
           <form
             id="sib-form"
             method="POST"
@@ -76,8 +76,7 @@
                         <span class="checkbox checkbox_tick_positive"></span
                         ><span class="is-size-6 has-text-weight-normal"
                           ><p>
-                            J'accepte de recevoir la newsletter de
-                            <i>La Halte Mitoyenne</i>
+                            J'accepte de recevoir la newsletter
                           </p></span
                         >
                       </label>
@@ -104,7 +103,7 @@
                 <button
                   class="
                     sib-form-block__button sib-form-block__button-with-loader
-                    Neumorphism
+                    NeumorphismPtit
                     button
                   "
                   form="sib-form"
@@ -144,16 +143,24 @@
 
 <style scoped>
 #container {
-  background: #F0F0F3;
-border: 4px solid rgba(255, 255, 255, 0.3);
-box-sizing: border-box;
-box-shadow: -10px -10px 50px #FFFFFF, 10px 10px 30px #AEAEC0;
-border-radius: 16px;
+  background: #f0f0f3;
+  border: 4px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  box-shadow: -10px -10px 50px #ffffff, 10px 10px 30px #aeaec0;
+  border-radius: 16px;
 }
 
 .Neumorphism {
   background: #F0F0F3;
-border: 3px solid rgba(255, 255, 255, 0.3);
+border: 2px solid rgba(255, 255, 255, 0.3);
+box-sizing: border-box;
+box-shadow: -10px -10px 30px #FFFFFF, 4px 7px 9px #AEAEC0;
+border-radius: 40px;
+}
+
+.NeumorphismPtit{
+  background: #F0F0F3;
+border: 1px solid rgba(255, 255, 255, 0.3);
 box-sizing: border-box;
 box-shadow: -10px -10px 30px #FFFFFF, 4px 7px 9px #AEAEC0;
 border-radius: 40px;
@@ -199,4 +206,4 @@ border-radius: 40px;
   font-family: "Helvetica", sans-serif;
   color: #c0ccda;
 }
-</style>>
+</style>
