@@ -1,5 +1,8 @@
-<a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjU8I6kvsbwAhXd8HMBHYpgBgU4ChAWMAd6BAgGEAM&url=https%3A%2F%2Fwww.ftcab.com%2Franchi-to-kolkata-taxi.aspx&usg=AOvVaw1M8U0bTfqd9yaEEZQk0NHC" target="_blank">
+<!DOCTYPE html>
+<html lang="fr">
     <header class="top-header">
+      <meta charset="utf-8">
+      <title>La Halte Mitoyenne</title>
   </header>
   
   <!--dust particel-->
@@ -27,22 +30,26 @@
     <!-- Content -->
     <div class="error__content">
       <div class="error__message message">
-        <h1 class="message__title">Page Not Found</h1>
-        <p class="message__text">We're sorry, the page you were looking for isn't found here. The link you followed may either be broken or no longer exists. Please try again, or take a look at our.</p>
+        <h1 class="message__title">Page Non Trouvée</h1>
+        <p class="message__text">Désolé, la page que vous cherchez n'est pas trouvable ici. Le lien que vous avez suivi peut etre erroné ou n'existe plus. Merci de réessayer, ou regardez notre</p>
       </div>
       <div class="error__nav e-nav">
-        <router-link to="/">Home</router-link>
+        <router-link to="/">Page d'acceuil</router-link>
       </div>
     </div>
     <!-- END Content -->
   
   </section>
-  
-    </a>
-
+  </html>
+ 
     <style>
         
 @charset "UTF-8";
+@font-face {
+  font-family: "Roboto";
+  src: local("Roboto"),
+   url(./assets/font/Roboto/Roboto-Regular.ttf) format("truetype");
+}
 
 /***********************************
 			/* 1. BODY */
@@ -52,6 +59,7 @@
   margin: 0;
   padding: 0;
   -webkit-text-size-adjust: none;
+  font-family: "Roboto", Helvetica, Arial;
 }
 
 html, body {
@@ -239,7 +247,7 @@ button {
 }
 
 .message__title {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Roboto", Helvetica, Arial;
   font-weight: 900;
   text-transform: uppercase;
   letter-spacing: 5px;
@@ -250,7 +258,7 @@ button {
 }
 
 .message__text {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Roboto", Helvetica, Arial;
   line-height: 42px;
   font-size: 18px;
   padding: 0 60px;
@@ -297,7 +305,7 @@ button {
   border: 1px solid #181828;
   color: #181828;
   text-decoration: none;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Roboto", Helvetica, Arial;
   text-transform: uppercase;
   font-size: 11px;
   letter-spacing: .1rem;
