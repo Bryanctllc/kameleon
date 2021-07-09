@@ -4,7 +4,7 @@
 <nav class="navbar is-10" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
     <router-link class="navbar-item" to="/">
-      <img src="../../assets/img/logo-site.png">
+      <img src="../../assets/img/logo-site.png" alt="Logo La Halte Mitoyenne">
     </router-link>
 
     <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarHome">
