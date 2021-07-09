@@ -1,13 +1,13 @@
 <template>
   <div class="columns is-centered">
     <div class="column is-10 py-6" id="container">
-      <div class="columns is-justify-content-space-evenly mb-6">
+      <div class="columns is-justify-content-space-evenly mb-6 is-vcentered">
         <div class="column is-5">
-          <figure class="image is-5by4">
+          <figure class="image">
             <img
               id="roundedimg"
               class="is-fullwidth"
-              src="@/assets/Marche.jpeg"
+              src="@/assets/img/produits-marche.png"
               alt=""
             />
           </figure>
@@ -16,24 +16,24 @@
           <h2 class="is-size-2 has-text-weight-bold mb-5">
             Intéressés à 89 % !
           </h2>
-          <p class="is-size-4">
-            Plus de 89% des gens sont intéressés soutiernnent l’idée d’une
+          <p class="is-size-5">
+            Plus de 89% des gens sont intéressés soutiennent l’idée d’une
             plateforme mettant en avant les produits locaux ainsi que leurs
             producteurs pour aider à mieux consommer local.
           </p>
         </div>
       </div>
-      <div class="columns is-justify-content-space-evenly">
+      <div class="columns is-justify-content-space-evenly is-vcentered">
         <div class="column is-5">
           <h2 class="is-size-2 has-text-weight-bold mb-5">Fidèles à 94 % !</h2>
-          <p class="is-size-4">
+          <p class="is-size-5">
             Plus de 94% des interrogés se disent près à être fidèles à un
             commerçant local au travers d’un système de réductions à points.
           </p>
         </div>
         <div class="column is-5">
-          <figure class="image is-5by4">
-            <img id="roundedimg" src="@/assets/Marche.jpeg" alt="" />
+          <figure class="image">
+            <img id="roundedimg" src="@/assets/img/rue-marche.png" alt="" />
           </figure>
         </div>
       </div>
@@ -56,5 +56,9 @@ export default {};
 #roundedimg {
   border-radius: 25px;
   object-fit: cover;
+}
+
+.image{
+  max-width: 50rem;
 }
 </style>

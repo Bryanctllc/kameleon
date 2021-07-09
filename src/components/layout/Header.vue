@@ -1,10 +1,10 @@
 <template>
-<div class="columns is-centered">
+<div class="columns is-centered" id="anchor">
   <div class="column is-10">
 <nav class="navbar is-10" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
-    <router-link class="navbar-item" to="/#news">
-      <img src="../../assets/logo-lhm-bleu.png">
+    <router-link class="navbar-item" to="/">
+      <img src="../../assets/img/logo-site.png">
     </router-link>
 
     <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarHome">
@@ -117,5 +117,9 @@ box-shadow: none;
   border: none;
   color: black;
 }
+}
+
+#navbarHome{
+  background-color: #F0F0F3;
 }
 </style>

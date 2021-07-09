@@ -21,7 +21,7 @@
           <div class="column image bigrounded">
             <img
               class="rounded"
-              src="@/assets/Producteur.jpeg"
+              src="@/assets/img/Producteur.jpeg"
               alt="Image agriculteur"
             />
           </div>
@@ -38,13 +38,13 @@
           <div class="column image bigrounded">
             <img
               class="rounded"
-              src="@/assets/Mairie.jpeg"
+              src="@/assets/img/Mairie.jpeg"
               alt="image d'une Mairie"
             />
           </div>
           <p class="is-size-3 has-text-weight-bold my-5">Une mairie :</p>
           <p class="is-size-5 has-text-justified">
-            Marre de ne trouver que des tomates d’espagne sur vos marchés ?
+            Marre de ne trouver que des tomates d’Espagne sur vos marchés ?
             Proposez les produits locaux à vos concitoyens et remplissez les
             étals de vos marchés des délices de nos régions.
           </p>
@@ -54,14 +54,14 @@
           <div class="column image bigrounded">
             <img
               class="rounded"
-              src="@/assets/Consommateur.jpeg"
+              src="@/assets/img/Consommateur.jpeg"
               alt="Image de personnes échangeant dans un marché"
             />
           </div>
           <p class="is-size-3 has-text-weight-bold my-5">Un consommateur :</p>
           <p class="is-size-5 has-text-justified">
             Une envie de découvrir les ressources locales des agriculteurs
-            environnant ? Les prix des produits locaux vous freinent dans vos
+            environnants ? Les prix des produits locaux vous freinent dans vos
             achats ? Grace à nous, accumulez des points et profitez de réduction
             sur vos marchés locaux.
           </p>
@@ -85,6 +85,7 @@ export default {
   box-sizing: border-box;
   box-shadow: -10px -10px 30px #ffffff, 10px 10px 20px #dfdfdf;
   border-radius: 35px;
+  padding: 8px 18px;
 }
 
 #container {

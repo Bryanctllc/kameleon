@@ -28,7 +28,7 @@
           >
             <div style="padding: 8px 0">
               <div class="sib-input sib-form-block">
-                <div class="form__entry entry_block">
+                <div class="form__entry entry_block has-text-centered">
                   <div class="form__label-row">
                     <div class="entry__field">
                       <input
@@ -62,7 +62,7 @@
             </div>
             <div class="columns is-centered my-4">
               <div class="sib-optin sib-form-block">
-                <div class="form__entry entry_mcq">
+                <div class="form__entry entry_mcq has-text-centered">
                   <div class="form__label-row">
                     <div class="entry__choice">
                       <label>
@@ -98,7 +98,7 @@
                 </div>
               </div>
             </div>
-            <div class="columns is-centered my-4">
+            <div class="columns is-centered has-text-centered my-4">
               <div class="sib-form-block">
                 <button
                   class="

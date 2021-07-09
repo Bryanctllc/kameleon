@@ -1,18 +1,18 @@
 <template>
     <footer class="footer py-6">
       <div class="columns is-centered">
-        <div class="column is-10 is-vcentered">
-          <div class="columns is-centered is-justify-content-space-between is-vcentered">
+        <div class="column is-10 is-vcentered has-text-centered">
+          <div class="columns is-centered is-justify-content-space-around is-vcentered">
             <div class="column is-3">
-                <a href="mailto:Lahalte.mitoyenne@gmail.com" class="maillink"><p class="has-text-centered is-size-5" id="underlin">Lahalte.mitoyenne@gmail.com</p></a>
+                <a href="mailto:Lahalte.mitoyenne@gmail.com" class="linkfooter"><p class="has-text-centered is-size-5 is-italic has-text-weight-light">lahalte.mitoyenne@gmail.com</p></a>
             </div>
             <div class="column is-3">
                 <div>
-                  <img src="../../assets/logo-lhm-bleu.png" alt="Logo La Halte Mitoyenne">
+                  <img class="logofooter" src="../../assets/img/logo-lhm-bleu.png" alt="Logo La Halte Mitoyenne">
                 </div>
             </div>
             <div class="column is-3">
-              <div class="columns is-justify-content-space-between is-vcentered">
+              <div class="columns is-justify-content-space-between is-vcentered is-mobile">
                 <div class="column">
                     <span class="icon">
                       <a href="https://www.facebook.com/Lahaltemitoyenne" target="_blank"><i class="fab fa-facebook carotte"></i></a>
@@ -31,10 +31,19 @@
               </div>
             </div>
           </div>
-          <router-link to="/confidentialite" class="has-text-centered">Politique de confidentialité</router-link>
-          <p class="has-text-centered">Politique de confidentialité</p>
-          <p class="has-text-centered">Mentions Légales</p>
-          <p class="has-text-centered">©La Halte Mitoyenne 2021. Tous droits réservés</p>
+          <div class="columns is-centered is-justify-content-space-around is-vcentered has-text-centered">
+            <div class="column">
+          <router-link to="legal#anchor" class="linkfooter is-size-6 has-text-weight-light">Mentions Légales</router-link>
+          </div>
+          <div >
+           <p class="is-size-6 has-text-weight-light">©La Halte Mitoyenne 2021. Tous droits réservés</p>
+          </div>
+          <div class="column">
+         
+           
+          <router-link to="confidentialite#anchor" class="linkfooter is-size-6 has-text-weight-light">Politique de confidentialité</router-link>
+          </div>
+          </div>
         </div>
       </div>
     </footer>
@@ -47,10 +56,6 @@ export default {
 </script>
 
 <style scoped>
-#underlin{
-  text-decoration: underline;
-}
-
 footer{
   background-color: #2D6B75 !important;
   color: white;
@@ -58,11 +63,14 @@ footer{
 
 .carotte{
   font-size: 3em;
-  text-decoration: none;
   color: white;
 }
 
-.maillink{
+.linkfooter{
   color: white;
+}
+
+.logofooter{
+  height: 8rem;
 }
 </style>

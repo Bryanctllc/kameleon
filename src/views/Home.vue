@@ -1,17 +1,17 @@
 <template>
-<Accueil></Accueil>
-<Chiffres></Chiffres>
-<Apport></Apport>
-<Trust></Trust>
-<Action></Action>
-<Form></Form>
+<Accueil class="mb-6"></Accueil>
+<Chiffres class="my-6"></Chiffres>
+<Apport class="my-6"></Apport>
+<!-- <Trust></Trust> -->
+<Action class="my-6"></Action>
+<Form class="my-6"></Form>
 </template>
 
 <script>
 import Accueil from '@/components/home/Accueil.vue';
 import Chiffres from '@/components/home/Chiffres.vue';
 import Apport from '@/components/home/Apport.vue';
-import Trust from '@/components/home/Trust.vue';
+// import Trust from '@/components/home/Trust.vue';
 import Action from '@/components/home/Action.vue';
 import Form from '@/components/home/Form.vue';
 
@@ -21,7 +21,7 @@ export default {
   Accueil,
   Chiffres,
   Apport,
-  Trust,
+  // Trust,
   Action,
   Form
     },
@@ -30,5 +30,4 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-
 </style>

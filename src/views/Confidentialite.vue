@@ -1,126 +1,182 @@
 <template>
-  <div class="column is-10">
-         Politique de confidentialité de La Halte Mitoyenne La présente Politique
-      de confidentialité décrit la façon dont vos informations personnelles sont
-      recueillies, utilisées et partagées lorsque vous vous rendez sur
-      https://lahaltemitoyenne.fr/ (le « Site ») ou que vous y effectuez un
-      achat. INFORMATIONS PERSONNELLES RECUEILLIES Lorsque vous vous rendez sur
-      le Site, nous recueillons automatiquement certaines informations
-      concernant votre appareil, notamment des informations sur votre navigateur
-      web, votre adresse IP, votre fuseau horaire et certains des cookies qui
-      sont installés sur votre appareil. En outre, lorsque vous parcourez le
-      Site, nous recueillons des informations sur les pages web ou produits
-      individuels que vous consultez, les sites web ou les termes de recherche
-      qui vous ont permis d'arriver sur le Site, ainsi que des informations sur
-      la manière dont vous interagissez avec le Site. Nous désignons ces
-      informations collectées automatiquement sous l'appellation « Informations
-      sur l'appareil ». Nous recueillons les Informations sur l'appareil à
-      l'aide des technologies suivantes : FICHIERS TÉMOINS (COOKIES) Voici une
-      liste de fichiers témoins que nous utilisons. Nous les avons énumérés ici
-      pour que vous ayez la possibilité de choisir si vous souhaitez les
-      autoriser ou non. _session_id, identificateur unique de session, permet à
-      Shopify de stocker les informations relatives à votre session (référent,
-      page de renvoi, etc.). _secure_session_id, identificateur unique de
-      session storefront_digest, identificateur unique, indéfini si la boutique
-      possède un mot de passe, il est utilisé pour savoir si le visiteur actuel
-      a accès. - Les « fichiers journaux » suivent l'activité du Site et
-      recueillent des données telles que votre adresse IP, le type de navigateur
-      que vous utilisez, votre fournisseur d'accès Internet, vos pages
-      référentes et de sortie, et vos données d'horodatage (date et heure). -
-      Les « pixels invisibles », les « balises » et les « pixels » sont des
-      fichiers électroniques qui enregistrent des informations sur la façon dont
-      vous parcourez le Site. [[INSÉRER LES DESCRIPTIONS DES AUTRES TYPES DE
-      TECHNOLOGIES DE SUIVI QUE VOUS UTILISEZ]]Par ailleurs, lorsque vous
-      effectuez ou tentez d'effectuer un achat par le biais du Site, nous
-      recueillons certaines informations vous concernant, notamment votre nom,
-      votre adresse de facturation, votre adresse d'expédition, vos informations
-      de paiement (y compris vos numéros de cartes de crédit [[INSÉRER LES
-      AUTRES MOYENS DE PAIEMENT ACCEPTÉS, LE CAS ÉCHÉANT]], votre adresse e-mail
-      et votre numéro de téléphone. Ces informations collectées automatiquement
-      sont désignées par l’appellation « Informations sur la commande ».
-      [[INSÉRER TOUTES LES AUTRES INFORMATIONS QUE VOUS RECUEILLEZ, LE CAS
-      ÉCHÉANT : DONNÉES HORS LIGNE, DONNÉES/LISTES ACHETÉES À DES FINS DE
-      MARKETING]] Lorsque nous utilisons l'expression « Informations
-      personnelles » dans la présente Politique de confidentialité, nous faisons
-      allusion à la fois aux Informations sur l'appareil et aux Informations sur
-      la commande. COMMENT UTILISONS-NOUS VOS INFORMATIONS PERSONNELLES ? En
-      règle générale, nous utilisons les Informations sur la commande que nous
-      recueillons pour traiter toute commande passée par le biais du Site (y
-      compris pour traiter vos informations de paiement, organiser l'expédition
-      de votre commande et vous fournir des factures et/ou des confirmations de
-      commande). En outre, nous utilisons ces Informations sur la commande
-      pour : communiquer avec vous ;évaluer les fraudes ou risques potentiels ;
-      et lorsque cela correspond aux préférences que vous nous avez
-      communiquées, vous fournir des informations ou des publicités concernant
-      nos produits ou services. [[INSÉRER LES AUTRES UTILISATIONS QUI SONT
-      FAITES DES INFORMATIONS SUR LA COMMANDE]] Nous utilisons les Informations
-      sur l'appareil (en particulier votre adresse IP) que nous recueillons pour
-      évaluer les fraudes ou risques potentiels et, de manière plus générale,
-      pour améliorer et optimiser notre Site (par exemple, en générant des
-      analyses sur la façon dont nos clients parcourent et interagissent avec le
-      Site, et pour évaluer la réussite de nos campagnes de publicité et de
-      marketing). [[INSÉRER LES AUTRES UTILISATIONS QUI SONT FAITES DES
-      INFORMATIONS SUR L'APPAREIL, NOTAMMENT EN MATIÈRE DE PUBLICITÉ ET DE
-      RECIBLAGE]]PARTAGE DE VOS INFORMATIONS PERSONNELLES Nous partageons vos
-      Informations personnelles avec des tiers qui nous aident à les utiliser
-      aux fins décrites précédemment. Par exemple, nous utilisons Shopify pour
-      héberger notre boutique en ligne – pour en savoir plus sur l'utilisation
-      de vos Informations personnelles par Shopify, veuillez consulter la page
-      suivante : https://www.shopify.fr/legal/confidentialite. Nous utilisons
-      également Google Analytics pour mieux comprendre comment nos clients
-      utilisent le Site – pour en savoir plus sur l'utilisation de vos
-      Informations personnelles par Google, veuillez consulter la page
-      suivante : https://www.google.com/intl/fr/policies/privacy/. Vous pouvez
-      aussi désactiver Google Analytics ici :
-      https://tools.google.com/dlpage/gaoptout. Enfin, il se peut que nous
-      partagions aussi vos Informations personnelles pour respecter les lois et
-      règlementations applicables, répondre à une assignation, à un mandat de
-      perquisition ou à toute autre demande légale de renseignements que nous
-      recevons, ou pour protéger nos droits.[[INCLURE LE PARAGRAPHE SUIVANT SI
-      VOUS UTILISEZ LE MARKETING DE RELANCE OU LA PUBLICITÉ CIBLÉE]] PUBLICITÉ
-      COMPORTEMENTALE Comme indiqué ci-dessus, nous utilisons vos Informations
-      personnelles pour vous proposer des publicités ciblées ou des messages de
-      marketing qui, selon nous, pourraient vous intéresser. Pour en savoir plus
-      sur le fonctionnement de la publicité ciblée, vous pouvez consulter la
-      page d'information de la Network Advertising Initiative (NAI) à l'adresse
-      suivante :
-      http://www.networkadvertising.org/understanding-online-advertising/how-does-it-work.
-      Vous pouvez refuser la publicité ciblée ici : [[ INCLURE LES LIENS DE
-      DÉSACTIVATION DES SERVICES UTILISÉS. QUELQUES LIENS COURANTS : FACEBOOK –
-      https://www.facebook.com/settings/?tab=ads GOOGLE –
-      https://www.google.com/settings/ads/anonymous BING –
-      https://about.ads.microsoft.com/fr-fr/ressources/politiques/annonces-personnalisees
-      ]]En outre, vous pouvez refuser certains de ces services en vous rendant
-      sur le portail de désactivation de Digital Advertising Alliance à
-      l'adresse suivante : https://optout.aboutads.info/?c=3&lang=fr. NE PAS
-      SUIVRE Veuillez noter que nous ne modifions pas la collecte de données de
-      notre Site et nos pratiques d'utilisation lorsque nous détectons un signal
-      « Ne pas suivre » sur votre navigateur. [[INCLURE LE PARAGRAPHE SUIVANT SI
-      VOUS VOUS SITUEZ EN EUROPE OU SI VOTRE BOUTIQUE A DES CLIENTS EN EUROPE]]
-      VOS DROITS Si vous êtes résident(e) européen(ne), vous disposez d'un droit
-      d'accès aux informations personnelles que nous détenons à votre sujet et
-      vous pouvez demander à ce qu'elles soient corrigées, mises à jour ou
-      supprimées. Si vous souhaitez exercer ce droit, veuillez nous contacter au
-      moyen des coordonnées précisées ci-dessous.Par ailleurs, si vous êtes
-      résident(e) européen(ne), notez que nous traitons vos informations dans le
-      but de remplir nos obligations contractuelles à votre égard (par exemple
-      si vous passez une commande sur le Site) ou de poursuivre nos intérêts
-      commerciaux légitimes, énumérés ci-dessus. Veuillez également noter que
-      vos informations seront transférées hors de l'Europe, y compris au Canada
-      et aux États-Unis. RÉTENTION DES DONNÉES Lorsque vous passez une commande
-      par l'intermédiaire du Site, nous conservons les Informations sur votre
-      commande dans nos dossiers, sauf si et jusqu'à ce que vous nous demandiez
-      de les supprimer. [[INSÉRER LE PARAGRAPHE SUIVANT EN CAS D'OBLIGATION
-      D'ÂGE MINIMUM]] MINEURS Le Site n'est pas destiné aux individus de moins
-      de [[INSÉRER L'ÂGE]]. CHANGEMENTS Nous pouvons être amenés à modifier la
-      présente politique de confidentialité de temps à autre afin d'y refléter,
-      par exemple, les changements apportés à nos pratiques ou pour d'autres
-      motifs opérationnels, juridiques ou réglementaires.NOUS CONTACTER Pour en
-      savoir plus sur nos pratiques de confidentialité, si vous avez des
-      questions ou si vous souhaitez déposer une réclamation, veuillez nous
-      contacter par e-mail à kameleon.equipe@gmail.com, ou par courrier à
-      l'adresse suivante : 8 bis Rue de la Fontaine au Roi, Paris, IDF, 75011,
-      France
+  <div class="columns is-centered padding">
+    <div class="column is-10 dad">
+      <router-link to="/" class="john">
+        <i class="fas fa-times carotte"></i>
+      </router-link>
+      <h2 class="anchor is-size-3 has-text-centered mt-4 has-text-weight-bold">
+        Politique de confidentialité
+      </h2>
+      <ul>
+        <li>
+          <h3 class="is-size-4 has-text-weight-semibold">
+            Quelques propos introductifs sur nos règles RGPD
+          </h3>
+          <p>
+            Comme beaucoup d'entreprises amenées à traiter les données
+            personnelles de ses clients et partenaires, La Halte Mitoyenne
+            s'engage dans une démarche de protection de leurs données. L'entrée
+            en vigueur de ce Règlement général sur la protection des données
+            personnelles et les contrôles de la CNIL sont l'occasion pour La
+            Halte Mitoyenne de renforcer sa politique de protection des données
+            personnelles. L'objectif atteint est la transparence sur le stockage
+            des données, la préservation de leur confidentialité et leur
+            sécurité.
+          </p>
+          <p>
+            La Politique de protection des données personnelles La Halte
+            Mitoyenne vous informe sur les processus mis en place pour le
+            traitement des données à caractère personnel des Utilisateurs qui
+            sont en contact avec notre agence en ligne après les appels et le
+            passage par notre site internet www.lahaltemitoyenne.fr .
+          </p>
+          <p>
+            “Une attention particulière est accordée par La Halte Mitoyenne à la
+            protection des données de nos Utilisateurs. Cette Politique est donc
+            régulièrement mise à jour dans un soucis d'amélioration permanente.
+            En effet, le RGPD étant tout récent, les acteurs qui y sont soumis
+            découvrent tous les jours de nouvelles problématiques et développent
+            de nouvelles solutions. C'est pourquoi, nous recommandons à nos
+            utilisateurs de visiter notre page dédiée à la Politique RGPD de
+            manière régulière. La Halte Mitoyenne vous informera également par
+            e-mail des évolutions importantes qui vous concernent avant qu'elles
+            ne soient mis en œuvre. La prolongation de l'utilisation de nos
+            services emportera acceptation tacite de notre Politique RGPD.”
+          </p>
+        </li>
+        <li>
+          <h3 class="is-size-4 has-text-weight-semibold">
+            Quelles sont les types de données personnelles collectées par La
+            Halte Mitoyenne et pour quelles finalités ?
+          </h3>
+          <p>
+            L'article 6 du RGPD prévoit plusieurs cas de licéité du traitement
+            et de la collecte des données personnelles. Les deux cas qui
+            intéressent La Halte Mitoyenne sont :
+            <br />
+            - La personne concernée a consenti au traitement de ses données à
+            caractère personnel pour une ou plusieurs finalités spécifiques ;
+            <br />
+            - Le traitement est nécessaire à l'exécution d'un contrat auquel la
+            personne concernée est partie ou à l'exécution de mesures
+            pré-contractuelles prises à la demande de celle-ci ;
+          </p>
+          <p>
+            Ainsi les contrats et avant-contrats auxquels fait référence le
+            paragraphe (b) de l'article 6 du RGPD sont le mandat immobilier et
+            contrats annexes.
+          </p>
+          <p>
+            Afin de mesurer la satisfaction des Utilisateurs des services La
+            Halte Mitoyenne, notre agence en ligne pourra vous demander de
+            compléter des enquêtes de satisfaction pour que vous puissiez
+            laisser votre avis.
+          </p>
+        </li>
+        <li>
+          <h3 class="is-size-4 has-text-weight-semibold">Quels types de cookies utilisons nous ?</h3>
+          <p>
+            Le site utilise des cookies pour deux outils intégrés au site,
+            Google Analytics qui permet d'analyser les statistiques de
+            consultation de notre site et Hotjar qui fait des enregistrement du
+            parcours de navigation.
+          </p>
+        </li>
+        <li>
+          <h3 class="is-size-4 has-text-weight-semibold">
+            Conservation des données chez La Halte Mitoyenne
+          </h3>
+          <p>
+            La Halte Mitoyenne transfert et conserve vos données dans l'Union
+            Européenne mais également hors de l'Union Européenne vers les
+            Etats-Unis. Les entités américaines vers lesquelles nous transférons
+            vos données ont adhéré au Privacy Shield ou nous avons conclu avec
+            elles des contrats spécifiques et des clauses contractuelles types
+            établies par la Commission Européenne pour encadrer et sécuriser le
+            transfert de vos données à ces prestataires. Nous pouvons faire
+            appel aux services des entreprises américaines vers qui nous
+            sous-traitons vos données pour répondre à vos demandes, fournir des
+            outils de paiement en ligne, nous fournir des services commerciaux
+            et publicitaires ou des services d'emailing et de SMS.
+          </p>
+        </li>
+        <li>
+          <h3 class="is-size-4 has-text-weight-semibold">
+            Comment La Halte Mitoyenne protège vos données personnelles ?
+          </h3>
+          <p>
+            La Halte Mitoyenne utilise des mesures de sécurité technologiques et
+            organisationnelles généralement reconnues afin que les données à
+            caractère personnel recueillies ne soient, ni perdues, ni
+            détournées, ni consultées, ni modifiées ni divulguées par des tiers
+            non autorisés sauf si la communication de ces données est imposée
+            par la réglementation en vigueur, notamment à la requête d'une
+            autorité judiciaire, de police, de gendarmerie ou de toute autre
+            autorité habilitée par la loi.
+          </p>
+        </li>
+        <li>
+          <h3 class="is-size-4 has-text-weight-semibold">
+            Pendant combien de temps La Halte Mitoyenne conserve les données
+            personnelles des Utilisateurs ?
+          </h3>
+          <p>
+            Les données à caractère personnel communiquées par les Utilisateurs
+            La Halte Mitoyenne seront supprimées à l'issue d'une certaine
+            période et selon les données traitées. Il est néanmoins possible de
+            les supprimer avant sur demande envoyé par e-mail à l'adresse
+            suivante : lahalte.mitoyenne@gmail.com.
+          </p>
+        </li>
+        <li>
+          <h3 class="is-size-4 has-text-weight-semibold">Quels sont les droits des Utilisateurs ?</h3>
+          <p>
+            Conformément à la réglementation en vigueur les Utilisateurs de
+            notre plateforme disposent des droits suivants :
+          </p>
+          <p>
+            - accès et de rectification ;<br />
+            - de mise à jour, de complétude des données Utilisateurs ;<br />
+            - de verrouillage ou de suppression des données des Utilisateurs à
+            caractère personnel, lorsqu'elles sont inexactes, incomplètes,
+            équivoques, périmées, ou dont la collecte, l'utilisation, la
+            communication ou la conservation est interdite ;<br />
+            - de retirer à tout moment son consentement ; à la limitation du
+            traitement des données des Utilisateurs ; - d'opposition aux
+            traitement des données personnelles ;<br />
+            - à la portabilité des données que les Utilisateurs auront fournies,
+            lorsque ces données font l'objet de traitements automatisés fondés
+            sur leur consentement ou un contrat.
+          </p>
+        </li>
+        <li>
+          <h3 class="is-size-4 has-text-weight-semibold">Vos droits en ce qui concerne la RGPD</h3>
+          <p>
+            Pour exercer vos droit vous pouvez envoyer un email à l'adresse
+            lahalte.mitoyenne@gmail.com ou adresser un courrier à l'adresse
+            suivante : La Halte Mitoyenne 8 bis Rue de la Fontaine au Roi, 75011
+            Paris, France. Enfin les Utilisateurs La Halte Mitoyenne peuvent
+            déposer une réclamation auprès des autorités de contrôle, et
+            notamment de la CNIL (https://www.cnil.fr:fr/plaintes). Vos requêtes
+            seront traitées sous 30 jours. En complément de votre demande, nous
+            vous demanderons de joindre une photocopie d'un justificatif
+            d'identité afin que La Halte Mitoyenne puisse vérifier votre
+            identité.
+          </p>
+        </li>
+        <li>
+          <h3 class="is-size-4 has-text-weight-semibold">Contacter l'agence</h3>
+          <p>
+            Si vous avez des questions ou des réclamations ou si vous souhaitez
+            faire part à La Halte Mitoyenne de recommandations ou des
+            commentaires visant à améliorer notre Politique de protection des
+            données personnelles vous pouvez envoyer un email à l'adresse
+            lahalte.mitoyenne@gmail.com ou adresser un courrier à l'adresse
+            suivante : 8 bis Rue de la Fontaine au Roi, 75011 Paris, France.
+          </p>
+        </li>
+      </ul>
+    </div>
   </div>
 </template>
 
@@ -129,4 +185,43 @@ export default {};
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped></style>
+<style scoped>
+.carotte {
+  font-size: 2em;
+  text-decoration: none;
+  color: #2d6b75;
+}
+
+.john {
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+  border: none;
+  background: none;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dad{
+  position: relative;
+}
+
+p {
+  margin-bottom: 1.2rem;
+  color: #4d4d4d;
+}
+
+h3 {
+  margin-bottom: 8px;
+}
+
+.anchor {
+  margin-bottom: 70px;
+}
+
+li {
+  margin-bottom: 1.2rem;
+}
+</style>
