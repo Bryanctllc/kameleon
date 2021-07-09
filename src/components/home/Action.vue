@@ -8,22 +8,22 @@
             Téléchargez l'application et prenez part à cette aventure avec nous
             !
           </p>
-          <ul class="stores">
-            <li class="store google">
+          <div class="columns stores">
+            <div class="column store google">
               <a
                 class="action"
-                href="https://apps.apple.com/us/app/snapchat/id447188370"
+                href=""
                 >Télécharger sur Google Play</a
               >
-            </li>
-            <li class="store apple">
+            </div>
+            <div class="column store apple">
               <a
                 class="action"
-                href="https://apps.apple.com/us/app/snapchat/id447188370"
+                href=""
                 >Télécharger sur l'App Store</a
               >
-            </li>
-          </ul>
+            </div>
+          </div>
         </div>
         <div class="column is-5">
           <img
