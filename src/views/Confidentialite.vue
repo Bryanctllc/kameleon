@@ -1,6 +1,6 @@
 <template>
   <div class="columns is-centered padding">
-    <div class="column is-10 dad">
+    <div class="column is-10 dad" id="container">
       <router-link to="/" class="john">
         <i class="fas fa-times carotte"></i>
       </router-link>
@@ -198,7 +198,7 @@ export default {};
   cursor: pointer;
   border: none;
   background: none;
-  margin: 20px;
+  margin: 2rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -223,5 +223,12 @@ h3 {
 
 li {
   margin-bottom: 1.2rem;
+}
+
+#container {
+  padding: 1.5rem;
+  background: #f0f0f3;
+  box-shadow: -10px -10px 30px #ffffff, 10px 10px 30px rgba(174, 174, 192, 0.4);
+  border-radius: 16px;
 }
 </style>

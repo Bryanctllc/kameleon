@@ -15,17 +15,17 @@
               <div class="columns is-justify-content-space-between is-vcentered is-mobile">
                 <div class="column">
                     <span class="icon">
-                      <a href="https://www.facebook.com/Lahaltemitoyenne" target="_blank"><i class="fab fa-facebook carotte"></i></a>
+                      <a href="https://www.facebook.com/Lahaltemitoyenne" rel="noreferrer" target="_blank"><i class="fab fa-facebook carotte"></i></a>
                     </span>
                 </div>
                 <div class="column">
                     <span class="icon">
-                      <a href="https://twitter.com/haltemitoyenne" target="_blank"><i class="fab fa-twitter carotte"></i></a>
+                      <a href="https://twitter.com/haltemitoyenne" rel="noreferrer" target="_blank"><i class="fab fa-twitter carotte"></i></a>
                     </span>
                 </div>
                 <div class="column">
                     <span class="icon">
-                      <a href="https://www.instagram.com/la_halte_mitoyenne/" target="_blank"><i class="fab fa-instagram carotte"></i></a>
+                      <a href="https://www.instagram.com/la_halte_mitoyenne/" rel="noreferrer" target="_blank"><i class="fab fa-instagram carotte"></i></a>
                     </span>
                 </div>
               </div>

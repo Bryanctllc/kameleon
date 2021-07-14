@@ -32,7 +32,7 @@
             près de chez vous. Un accès direct aux étals des marchés de votre
             région.
           </p>
-          <a class="button my-6 Neumorphism is-size-4" href="#">En savoir +</a>
+          <!-- <a class="button my-6 Neumorphism is-size-4" href="#">En savoir +</a> -->
         </div>
         <div class="column is-3 has-text-centered">
           <div class="column image bigrounded">
@@ -48,7 +48,7 @@
             Proposez les produits locaux à vos concitoyens et remplissez les
             étals de vos marchés des délices de nos régions.
           </p>
-          <a class="button my-6 Neumorphism is-size-4" href="#">En savoir +</a>
+          <!-- <a class="button my-6 Neumorphism is-size-4" href="#">En savoir +</a> -->
         </div>
         <div class="column is-3 has-text-centered">
           <div class="column image bigrounded">
@@ -65,7 +65,7 @@
             achats ? Grace à nous, accumulez des points et profitez de réduction
             sur vos marchés locaux.
           </p>
-          <a class="button my-6 Neumorphism is-size-4" href="">En savoir +</a>
+          <!-- <a class="button my-6 Neumorphism is-size-4" href="">En savoir +</a> -->
         </div>
       </div>
     </div>
@@ -86,12 +86,6 @@ export default {
   box-shadow: -10px -10px 30px #ffffff, 10px 10px 20px #dfdfdf;
   border-radius: 35px;
   padding: 8px 18px;
-}
-
-#container {
-  background: #f0f0f3;
-  box-shadow: -10px -10px 30px #ffffff, 10px 10px 30px rgba(174, 174, 192, 0.4);
-  border-radius: 16px;
 }
 
 .rounded {

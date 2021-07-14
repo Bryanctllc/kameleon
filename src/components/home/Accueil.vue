@@ -13,6 +13,7 @@
         class="button mt-6 Neumorphism is-size-4"
         href="https://www.instagram.com/la_halte_mitoyenne/"
         target="_blank"
+        rel="noreferrer"
         ><b>Nous suivre sur les réseaux</b></a
       >
     </div>

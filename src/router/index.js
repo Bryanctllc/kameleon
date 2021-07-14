@@ -3,6 +3,7 @@ import { createRouter, createWebHistory } from 'vue-router';
 import Home from '@/views/Home.vue';
 import Confidentialite from '@/views/Confidentialite.vue';
 import Legal from '@/views/Legal.vue';
+import Carte from '@/views/Carte.vue';
 
 
 const router = createRouter({
@@ -11,6 +12,7 @@ const router = createRouter({
         { path: '/', component: Home},
         { path: '/confidentialite', component: Confidentialite},
         { path: '/legal', component: Legal},
+        { path: '/carte', component: Carte},
     ],
     scrollBehavior(to, from, savedPosition) {
         if (savedPosition) {

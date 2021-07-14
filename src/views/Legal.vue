@@ -1,6 +1,6 @@
 <template>
   <div class="columns is-centered padding">
-    <div class="column is-10 dad">
+    <div class="column is-10 dad" id="container">
       <router-link to="/" class="john">
         <i class="fas fa-times carotte"></i>
       </router-link>
@@ -29,7 +29,7 @@
             morale.<br />
             <strong>Webmaster</strong> : Bryan Coutellec –
             bryan.coutellec@gmail.com<br />
-            <strong>Hébergeur</strong> : OVH – 59100<br />
+            <strong>Hébergeur</strong> : OVH – 59100.<br />
           </p>
         </li>
         <li>
@@ -97,7 +97,7 @@
             matériels liés à l’utilisation du site. De plus, l’utilisateur du
             site s’engage à accéder au site en utilisant un matériel récent, ne
             contenant pas de virus et avec un navigateur de dernière génération
-            mis-à-jour
+            mis-à-jour.
           </p>
         </li>
         <li>
@@ -327,7 +327,7 @@ export default {};
   cursor: pointer;
   border: none;
   background: none;
-  margin: 20px;
+  margin: 2rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -354,4 +354,10 @@ li {
   margin-bottom: 1.2rem;
 }
 
+#container {
+  padding: 1.5rem;
+  background: #f0f0f3;
+  box-shadow: -10px -10px 30px #ffffff, 10px 10px 30px rgba(174, 174, 192, 0.4);
+  border-radius: 16px;
+}
 </style>

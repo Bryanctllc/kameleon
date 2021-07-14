@@ -17,16 +17,14 @@
   <div class="navbar-menu" id="navbarHome">
     <div class="navbar-end">
       <div class="navbar-item">
-        <div class="buttons">
-          <a class="button is-size-5">
-            A propos
-          </a>
-          <a class="button is-size-5" href="https://kameleon-equipe.systeme.io/blog-lahaltemitoyenne" target="_blank">
+        <div class="buttons" id="myDIV">
+          <a class="button stylebtn is-size-5 btn" href="https://kameleon-equipe.systeme.io/blog-lahaltemitoyenne" rel="noreferrer" target="_blank">
             Blog
           </a>
-          <a class="button stylebtn is-size-5">
-            Se connecter
-          </a>
+          <!-- <router-link to="carte" class="button stylebtn is-size-5 btn">Carte</router-link>
+          <a class="button stylebtn is-size-5 btn">
+            Contact
+          </a> -->
         </div>
       </div>
     </div>
@@ -40,29 +38,22 @@
 export default {
   setup() {
     document.addEventListener('DOMContentLoaded', () => {
-
   // Get all "navbar-burger" elements
   const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
-
   // Check if there are any navbar burgers
   if ($navbarBurgers.length > 0) {
-
     // Add a click event on each of them
     $navbarBurgers.forEach( el => {
       el.addEventListener('click', () => {
-
         // Get the target from the "data-target" attribute
         const target = el.dataset.target;
         const $target = document.getElementById(target);
-
         // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
         el.classList.toggle('is-active');
         $target.classList.toggle('is-active');
-
       });
     });
   }
-
 });
   },
 }
@@ -89,17 +80,12 @@ export default {
     max-height: 4rem;
 }
 
-.stylebtn{
+.stylebtn:hover{
   background: #F0F0F3;
 border: 1px solid rgba(255, 255, 255, 0.3);
 box-sizing: border-box;
 box-shadow: -10px -10px 30px #FFFFFF, 10px 10px 20px #DFDFDF;
 border-radius: 35px;
-}
-
-.stylebtn:hover{
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  color: black;
 }
 
 
@@ -122,4 +108,5 @@ box-shadow: none;
 #navbarHome{
   background-color: #F0F0F3;
 }
+
 </style>

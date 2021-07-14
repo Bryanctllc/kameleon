@@ -17,7 +17,7 @@
             Intéressés à 89 % !
           </h2>
           <p class="is-size-5">
-            Plus de 89% des gens sont intéressés soutiennent l’idée d’une
+            Plus de 89% des interrogés sont intéressés à soutenir l’idée d’une
             plateforme mettant en avant les produits locaux ainsi que leurs
             producteurs pour aider à mieux consommer local.
           </p>
@@ -58,7 +58,7 @@ export default {};
   object-fit: cover;
 }
 
-.image{
+.image {
   max-width: 50rem;
 }
 </style>
