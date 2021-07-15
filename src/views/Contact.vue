@@ -43,7 +43,7 @@
         </div>
         <div class="column is-4">
         <figure class="image">
-        <img id="roundedimg" src="@/assets/img/contact-img.png" alt="légumes au marché" />
+        <img id="roundedimg" src="@/assets/img/contact-img.png" alt="Personne remplissant un formulaire" />
       </figure>
         </div>
       </div>

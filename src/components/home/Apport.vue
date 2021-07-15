@@ -32,7 +32,7 @@
             près de chez vous. Un accès direct aux étals des marchés de votre
             région.
           </p>
-          <!-- <a class="button my-6 Neumorphism is-size-4" href="#">En savoir +</a> -->
+          <router-link to="/presentation#producteur" class="button my-6 Neumorphism is-size-4">En savoir +</router-link>
         </div>
         <div class="column is-3 has-text-centered">
           <div class="column image bigrounded">
@@ -48,7 +48,7 @@
             Proposez les produits locaux à vos concitoyens et remplissez les
             étals de vos marchés des délices de nos régions.
           </p>
-          <!-- <a class="button my-6 Neumorphism is-size-4" href="#">En savoir +</a> -->
+          <router-link to="/presentation#mairie" class="button my-6 Neumorphism is-size-4">En savoir +</router-link>
         </div>
         <div class="column is-3 has-text-centered">
           <div class="column image bigrounded">
@@ -65,7 +65,7 @@
             achats ? Grace à nous, accumulez des points et profitez de réduction
             sur vos marchés locaux.
           </p>
-          <!-- <a class="button my-6 Neumorphism is-size-4" href="">En savoir +</a> -->
+          <router-link to="/presentation#consommateur" class="button my-6 Neumorphism is-size-4">En savoir +</router-link>
         </div>
       </div>
     </div>

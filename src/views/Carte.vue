@@ -1,6 +1,6 @@
 <template>
     <figure class="image">
-        <img id="roundedimg" src="@/assets/img/Carte.png" alt="légumes au marché" />
+        <img id="roundedimg" src="@/assets/img/Carte.png" alt="carte plan paris avec marchés" />
       </figure>
 </template>
 

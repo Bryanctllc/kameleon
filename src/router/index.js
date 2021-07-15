@@ -5,6 +5,7 @@ import Confidentialite from '@/views/Confidentialite.vue';
 import Legal from '@/views/Legal.vue';
 import Carte from '@/views/Carte.vue';
 import Contact from '@/views/Contact.vue';
+import Presentation from '@/views/Presentation.vue';
 
 
 const router = createRouter({
@@ -15,6 +16,7 @@ const router = createRouter({
         { path: '/legal', component: Legal},
         { path: '/carte', component: Carte},
         { path: '/contact', component: Contact},
+        { path: '/presentation', component: Presentation},
     ],
     scrollBehavior(to, from, savedPosition) {
         if (savedPosition) {
