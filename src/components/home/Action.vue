@@ -10,22 +10,24 @@
           </p>
           <div class="columns stores">
             <div class="column store google">
-              <a
-                class="action"
-                href=""
-                >Télécharger sur Google Play</a
-              >
+              <div class="container">
+                <modale :revele="revele" :toggleModale="toggleModale"></modale>
+                <div v-on:click="toggleModale" class="btn btn-success action">
+                  Google Play
+                </div>
+              </div>
             </div>
             <div class="column store apple">
-              <a
-                class="action"
-                href=""
-                >Télécharger sur l'App Store</a
-              >
+              <div class="container">
+                <modale :revele="revele" :toggleModale="toggleModale"></modale>
+                <div v-on:click="toggleModale" class="btn btn-success action">
+                  Apple Store
+                </div>
+              </div>
             </div>
           </div>
         </div>
-        <div class="column is-5">
+        <div class="column is-5 has-text-centered">
           <img
             id="roundedimg"
             src="@/assets/img/producteur.png"
@@ -38,10 +40,25 @@
 </template>
 
 <script>
+import Modale from "./Modale";
+
 export default {
-  name: "HelloWorld",
+  name: "Action",
   props: {
     msg: String,
+  },
+  data() {
+    return {
+      revele: false,
+    };
+  },
+  components: {
+    modale: Modale,
+  },
+  methods: {
+    toggleModale: function() {
+      this.revele = !this.revele;
+    },
   },
 };
 </script>
@@ -74,8 +91,8 @@ p {
 }
 
 .action {
-  width: 8.4375em;
-  height: 2.5em;
+  width: 11em;
+  height: 3.5em;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: 100% auto;
@@ -99,4 +116,11 @@ p {
 .stores {
   list-style: none;
 }
+
+@media (max-width: 769px) {
+  .stores {
+    text-align: center!important;
+  }
+}
+
 </style>

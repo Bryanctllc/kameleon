@@ -1,7 +1,7 @@
 <template>
   <div class="columns is-centered padding">
     <div class="column is-10 dad" id="container">
-      <router-link to="/" class="john">
+      <router-link to="-1" go class="john">
         <i class="fas fa-times carotte"></i>
       </router-link>
       <h2 class="anchor is-size-3 has-text-centered mt-4 has-text-weight-bold">
