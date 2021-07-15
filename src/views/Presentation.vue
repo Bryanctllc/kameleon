@@ -1,13 +1,19 @@
 <template>
 <Accueil1 class="mb-6"></Accueil1>
 <Etapes1 class="mb-6"></Etapes1>
-<div class="ligne_horizontal mb-6"></div>
+<div class="columns is-centered">
+<div class="column is-10 ligne_horizontal mb-6"></div>
+</div>
 <Accueil2 class="mb-6"></Accueil2>
 <Etapes2 class="mb-6"></Etapes2>
-<div class="ligne_horizontal mb-6"></div>
+<div class="columns is-centered">
+<div class="column is-10 ligne_horizontal mb-6"></div>
+</div>
 <Accueil3 class="mb-6"></Accueil3>
 <Etapes3 class="mb-6"></Etapes3>
-<div class="ligne_horizontal mb-6"></div>
+<div class="columns is-centered">
+<div class="column is-10 ligne_horizontal mb-6"></div>
+</div>
 <Form class="my-6"></Form>
 <Action class="my-6"></Action>
 </template>
@@ -50,7 +56,6 @@ export default {
 .ligne_horizontal:after {
   content: "";
   flex: 1 1;
-  border-bottom: 2px solid #000;
-  margin: auto 5% auto 5%;
+  border-bottom: 2px solid #E5E5E5;
 }
 </style>
