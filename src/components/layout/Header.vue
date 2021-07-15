@@ -21,7 +21,7 @@
           <a class="button stylebtn is-size-5 btn" href="https://kameleon-equipe.systeme.io/blog-lahaltemitoyenne" rel="noreferrer" target="_blank">
             Blog
           </a>
-          <!-- <router-link to="carte" class="button stylebtn is-size-5 btn">Carte</router-link> -->
+          <router-link to="carte" class="button stylebtn is-size-5 btn">Carte</router-link>
           <router-link to="contact" class="button stylebtn is-size-5 btn">Contact</router-link>
         </div>
       </div>

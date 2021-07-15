@@ -103,7 +103,7 @@ border-radius: 40px;
     padding: 8px 18px;
 }
 
-.champs:focus{
+.champs:focus, .champsarea:focus{
   outline: none;
   background-color: #e6e6eb;
 }
